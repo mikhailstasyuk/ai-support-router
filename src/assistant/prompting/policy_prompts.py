@@ -12,5 +12,5 @@ def plan_summary_response(summary: str) -> str:
 def clinic_alternatives(requested: str, alternatives: list[str]) -> str:
     return TemplateEngine().render(
         "clinic_alternative_offer.j2",
-        {"requested_clinic": requested, "alternatives": ", ".join(alternatives)},
+        {"requested_clinic": requested, "alternatives": alternatives},
     )

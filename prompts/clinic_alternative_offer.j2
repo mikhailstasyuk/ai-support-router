@@ -1,1 +1,2 @@
-The requested clinic {{ requested_clinic }} is not eligible. Available alternatives: {{ alternatives }}.
+{% import "_shared_macros.j2" as shared %}
+{{ shared.clinic_not_eligible(requested_clinic, alternatives) }}

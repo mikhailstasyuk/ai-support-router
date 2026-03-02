@@ -1,1 +1,2 @@
-Your preferred slot is unavailable at {{ clinic }}. Available alternatives: {{ alternatives }}.
+{% import "_shared_macros.j2" as shared %}
+{{ shared.alternatives_unavailable("slot", clinic, alternatives) }}

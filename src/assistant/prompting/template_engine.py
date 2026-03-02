@@ -46,9 +46,12 @@ class TemplateEngine:
     @staticmethod
     def required_templates() -> list[str]:
         return [
+            "_shared_macros.j2",
             "intent_clarification.j2",
             "verification_prompt.j2",
             "appointment_alternative_offer.j2",
+            "appointment_confirmation.j2",
+            "appointment_candidate_offer.j2",
             "clinic_alternative_offer.j2",
             "missing_information_next_steps.j2",
             "handoff_summary.j2",
