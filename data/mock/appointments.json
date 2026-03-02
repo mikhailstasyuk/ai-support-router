@@ -1,0 +1,34 @@
+[
+  {
+    "appointment_id": "APT-0001",
+    "policy_id": "POL-1001",
+    "date": "2026-03-10",
+    "doctor": "Dr. Kim",
+    "clinic": "Downtown Clinic",
+    "status": "confirmed"
+  },
+  {
+    "appointment_id": "APT-0002",
+    "policy_id": "POL-1001",
+    "date": "2026-03-15",
+    "doctor": "Kim",
+    "clinic": "Downtown Clinic",
+    "status": "confirmed"
+  },
+  {
+    "appointment_id": "APT-0003",
+    "policy_id": "POL-101",
+    "date": "2026-03-15",
+    "doctor": "Kim My",
+    "clinic": "At Downtown Clinic",
+    "status": "confirmed"
+  },
+  {
+    "appointment_id": "APT-0004",
+    "policy_id": "POL-101",
+    "date": "2026-03-15",
+    "doctor": "Kim My",
+    "clinic": "At Downtown Clinic",
+    "status": "confirmed"
+  }
+]

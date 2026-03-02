@@ -1,0 +1,8 @@
+[
+  {
+    "caller_id": "caller-001",
+    "caller_type": "policy_holder",
+    "phone_number": "+15555550100",
+    "verification_state": "verified"
+  }
+]

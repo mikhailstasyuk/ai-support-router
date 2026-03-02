@@ -1,0 +1,17 @@
+[
+  {
+    "plan_id": "PLN-1",
+    "name": "Basic Shield",
+    "cost_band": "low"
+  },
+  {
+    "plan_id": "PLN-2",
+    "name": "Standard Care",
+    "cost_band": "medium"
+  },
+  {
+    "plan_id": "PLN-3",
+    "name": "Premium Plus",
+    "cost_band": "high"
+  }
+]

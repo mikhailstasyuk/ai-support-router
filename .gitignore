@@ -1,3 +1,7 @@
+.codex
+.config
+data/mock/audio
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -136,6 +140,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env*
+!.env.example
 .envrc
 .venv
 env/
@@ -205,3 +211,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Universal local/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/

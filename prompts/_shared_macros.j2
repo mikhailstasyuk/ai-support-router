@@ -1,0 +1,27 @@
+{% macro list_text(items, separator='; ') -%}
+{%- if items -%}
+{%- for item in items -%}
+{{ item }}{%- if not loop.last %}{{ separator }}{% endif -%}
+{%- endfor -%}
+{%- else -%}
+none
+{%- endif -%}
+{%- endmacro %}
+
+{% macro missing_info(intent, missing_items) -%}
+To continue with {{ intent }}, please provide: {{ list_text(missing_items, ', ') }}.
+{%- endmacro %}
+
+{% macro alternatives_unavailable(subject, location, alternatives) -%}
+Your preferred {{ subject }} is unavailable at {{ location }}. Available alternatives: {{ list_text(alternatives) }}.
+{%- endmacro %}
+
+{% macro clinic_not_eligible(requested_clinic, alternatives) -%}
+The requested clinic {{ requested_clinic }} is not eligible. Available alternatives: {{ list_text(alternatives, ', ') }}.
+{%- endmacro %}
+
+{% macro appointment_candidates(matches) -%}
+I found these appointments: {% for match in matches -%}
+{{ match.appointment_id }} on {{ match.date }}{%- if not loop.last %}; {% endif -%}
+{%- endfor -%}. Please choose one.
+{%- endmacro %}
