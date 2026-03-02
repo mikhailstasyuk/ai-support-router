@@ -1,0 +1,9 @@
+[
+  {
+    "policy_id": "POL-1001",
+    "policy_number": "PN-2026-1001",
+    "tariff_plan": "Standard Care",
+    "clinic": "Downtown Clinic",
+    "eligibility_state": "eligible"
+  }
+]

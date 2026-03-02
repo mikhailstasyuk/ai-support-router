@@ -1,0 +1,12 @@
+[
+  {
+    "case_id": "CMP-0001",
+    "policy_id": "POL-1001",
+    "current_status": "documents_review",
+    "appeal_requested": false,
+    "missing_items": [
+      "medical_invoice"
+    ],
+    "next_steps": "Upload the medical invoice to continue processing."
+  }
+]
